@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💖 Notre Histoire 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+  <h1>💘 Toi & Moi 💘</h1>
+  <p>Chaque instant avec toi est précieux</p></br>
+
+  <div class="slider">
+
+
+    <div class="slide active">
+      <div class="slide-inner">
+        <img src="img/img-debut.jpg">
+      </div>
+      <div class="caption active">Le début de notre relation, incroyable 💕</div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <img src="img/img2.jpg">
+      </div>
+      <div class="caption">un moment incroyable, mais le début des tourmants</div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <img src="img/img3.jpg">
+      </div>
+      <div class="caption">Chaque instant avec toi etait magique, mais ça n'allait pas du tout entre nous ✨</div>
+    </div>
+
+     <div class="slide">
+      <div class="slide-inner">
+        <img src="img/img4.jpg">
+      </div>
+      <div class="caption">Mais on a réussi à redrésser le navire, et aujourd'hui ça va mieux</div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-inner">
+        <img src="img/img-fin.jpg">
+      </div>
+      <div class="caption">Et juste pour te dire je t'aime, Et ce n’est que le début ❤️</div>
+    </div>
+
+</div>
+
+  <button id="nextPage">Suite de notre histoire ➜</button>
+</div>
+
+</br></br></br></br>
+
+<div style="opacity:0.6; margin-top:15px;">
+    <p>Lance la musique, puis notre histoire 💞</p></br></br>
+  <iframe style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/0mzQBmvulZc2nSPscftR7d"
+    width="90%"
+    height="80"
+    frameBorder="0"
+    allow="autoplay; encrypted-media">
+  </iframe>
+</div>
+
+<!-- Scripts -->
+<script src="hearts.js"></script>
+<script src="slide.js"></script>
+<script>
+document.getElementById("nextPage").onclick = () => {
+  window.location.href = "question.html";
+};
+</script>
+<script src="audio.js"></script>
+
+
+</body>
+</html>
